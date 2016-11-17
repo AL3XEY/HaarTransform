@@ -1,0 +1,21 @@
+1) Changement d'espace couleur
+
+2) Transformée en Ondelettes en choisissant le nombre N de décompositions
+
+3) Quantification : Q => 1 coefficient par sous-bande
+
+4) Faire varier N et Q afin de tracer une courbe débit (bits par pixels) / distortion (PSNR) (de l'image RECONSTRUITE)
+
+/!\ utiliser une image carrée en entrée
+
++128 pour affichage mais pas pour quantification!
+
+
+
+
+1	  25
+25	50
+
+1 	25	50
+25 	50
+50	  	100
