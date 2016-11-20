@@ -1,7 +1,7 @@
 all: decomposition
 
 run: decomposition
-	./decomposition ../lena.ppm 2
+	./decomposition ../res/lena.ppm 2
 
 decomposition: decomposition.o ImageBase.o
 	g++ -o decomposition decomposition.o ImageBase.o

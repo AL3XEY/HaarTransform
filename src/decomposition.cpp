@@ -27,7 +27,7 @@
     
     ImageBase imIn;
     
-    if (argc < 4) {
+    if (argc != 3) {
         cout << "usage: Image.ppm nbOfDecomposition" << endl;
         return EXIT_FAILURE;
     }
