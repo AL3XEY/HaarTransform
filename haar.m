@@ -6,8 +6,9 @@ pkg load image;
 
 n = 6; %1 ~ 6
 
-%imgRgb = imread('lena.ppm');
-imgRgb = imread('peppers.ppm');
+imgRgb = imread('res/lena.ppm');
+%imgRgb = imread('res/peppers.ppm');
+%imgRgb = imread('res/trees.ppm');
 [h w c] = size(imgRgb);
 img = rgb2ycbcr(imgRgb);
 %img = imgRgb;
